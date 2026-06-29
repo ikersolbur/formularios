@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <form action="procesar.html" method="POST">
+    
+    
+    <label for="usuario">Nombre de usuario (5 a 15 caracteres):</label>
+    
+      <input type="text" id="usuario" name="usuario" minlength="5" maxlength="15" placeholder="Ingresar nombre de usuario" required>
+      <span class="icono-error"></span>
+    
+    
+    <label for="edad">Edad (Rango permitido de 18 a 99 años):</label>
+    
+      <input type="number" id="edad" name="edad" min="18" max="99" placeholder="Ej:18" required>
+      <span class="icono-error"></span>
+    
+    <br><br>
+    
+    
+    <label for="pais">País de residencia:</label>
+    
+      <select id="pais" name="pais" required>
+        <option value="">Selecciona un país...</option>
+        <option value="MX">México</option>
+        <option value="CO">Colombia</option>
+        <option value="AR">Argentina</option>
+      </select>
+      <span class="icono-error"></span>
+    </div>
+    <br><br>
+    
+    <p>Tipo de cuenta:</p>
+    <input type="radio" id="cuenta-personal" name="tipo_cuenta" value="personal" required>
+    <label for="cuenta-personal">Personal</label>
+    <input type="radio" id="cuenta-empresa" name="tipo_cuenta" value="empresa">
+    <label for="cuenta-empresa">Empresarial</label>
+    <br><br>
+
+    <input type="checkbox" id="terminos" name="terminos" value="aceptado" required>
+    <label for="terminos">Acepto los términos y condiciones de la plataforma</label>
+    <br><br>
+    
+    <button type="submit">Enviar formulario</button>  
+    <br><br>
+  </form>
+</body>
+</html>
+https://ikersolbur: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@github.com/ikersolbur/formularios.git
+https://ikersolbur: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@github.com/ikersolbur/poo-b-2026-javascript.git    
